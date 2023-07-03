@@ -1,6 +1,7 @@
 {
   "name": "base-react-redux",
   "version": "0.1.0",
+  "homepage": "https://pantaki.github.io/realestate/",
   "private": true,
   "dependencies": {
     "@nosferatu500/react-sortable-tree": "4.4.0",
