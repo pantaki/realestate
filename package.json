@@ -2,7 +2,7 @@
   "name": "base-react-redux",
   "version": "0.1.0",
   "homepage": "https://pantaki.github.io/realestate/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@nosferatu500/react-sortable-tree": "4.4.0",
     "@testing-library/jest-dom": "5.16.4",
