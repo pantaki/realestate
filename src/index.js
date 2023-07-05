@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
     {/* <React.StrictMode> */}
-      <HashRouter>
+      {/* <HashRouter> */}
         {/* <App /> */}
         <Routes basename="/realestate">
           <Route path='/' element={ <App /> }>
@@ -23,7 +23,7 @@ root.render(
             <Route path='admin' element={ <Admin /> } />
           </Route>
         </Routes>
-      </HashRouter>
+      {/* </HashRouter> */}
       
     {/* </React.StrictMode> */}
   </Provider>
