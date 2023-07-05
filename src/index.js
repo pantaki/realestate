@@ -14,16 +14,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
     {/* <React.StrictMode> */}
-      <HashRouter>
+      <BrowserRouter  basename="/realestate">
         {/* <App /> */}
         <Routes>
-          <Route path='/realestate' element={ <App /> }>
+          <Route path='/' element={ <App /> }>
             <Route index element={ <HomePage /> } />
             <Route path='users' element={ <User /> } />
             <Route path='admin' element={ <Admin /> } />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
       
     {/* </React.StrictMode> */}
   </Provider>
