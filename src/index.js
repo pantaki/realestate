@@ -16,8 +16,8 @@ root.render(
     {/* <React.StrictMode> */}
       <HashRouter>
         {/* <App /> */}
-        <Routes basename="/realestate">
-          <Route path='/' element={ <App /> }>
+        <Routes>
+          <Route path='/realestate' element={ <App /> }>
             <Route index element={ <HomePage /> } />
             <Route path='users' element={ <User /> } />
             <Route path='admin' element={ <Admin /> } />
