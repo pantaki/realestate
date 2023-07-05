@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
     {/* <React.StrictMode> */}
-      <BrowserRouter  basename="/realestate">
+      <BrowserRouter  basename="/">
         {/* <App /> */}
         <Routes>
           <Route path='/' element={ <App /> }>
